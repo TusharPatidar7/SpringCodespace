@@ -1,0 +1,29 @@
+package com.demo.Carpool.service;
+
+import org.springframework.stereotype.Service;
+
+import com.demo.Carpool.entity.Offer_ride;
+import com.demo.Carpool.entity.Pool_ride;
+import com.demo.Carpool.repository.OfferRideRepositroy;
+
+@Service
+public class OfferRideService {
+
+	private OfferRideRepositroy offerRideRepository;
+
+	public Offer_ride AddPoolRequest(Offer_ride offer_ride) {
+
+		return offerRideRepository.save(offer_ride);
+	}
+
+	public String DeletePoolRequest(Offer_ride offer_ride) {
+
+		if (offerRideRepository.existsById(offer_ride.getRide_id())) {
+			offerRideRepository.delete(offer_ride);
+		} else {
+			return "Pool request doesn't exist!";
+		}
+
+		return "Deleted pool request";
+	}
+}

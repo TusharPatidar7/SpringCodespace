@@ -1,0 +1,19 @@
+package com.demo.Carpool.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Data
+@Entity
+@Table
+public class Offer_ride {
+
+	@Id
+	private Long ride_id;
+	private String pikup_location;
+	private String drop_location;
+	private String status;
+	
+}

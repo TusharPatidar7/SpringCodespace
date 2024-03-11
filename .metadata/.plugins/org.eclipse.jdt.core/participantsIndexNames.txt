@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+C:\Users\Tushar Patidar\eclipse-workspace\springClass\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1767420524.index
+\webmvc-assignments\src\main\java
+C:\Users\Tushar Patidar\eclipse-workspace\springClass\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\957642373.index
+\springPrimaryAnnotation\src
+C:\Users\Tushar Patidar\eclipse-workspace\springClass\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1382116148.index
+\Spring-mvc-registration\src\main\java

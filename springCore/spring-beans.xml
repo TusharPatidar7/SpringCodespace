@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<!-- bean definitions here -->
+<!-- private int orderId;
+	private String orderDate;
+	private List<String> orders;
+	private Set<Integer> quantity;
+	private Map<String, Integer> price;-->
+
+	<bean id="order1" class="springCoreDemo.Order">
+		<property name="orderId" value="111"></property>
+		<property name="orderDate" value="16-10-2023"></property>
+		<property name="orders">
+			<list>
+				<value>Biryani</value>
+				<value>Paneer</value>
+				<value>IceCream</value>
+			</list>
+		</property>
+		<property name="quantity">
+			<set>
+				<value>1</value>
+				<value>2</value>
+				<value>1</value>
+			</set>
+		</property>
+		<property name="price">
+			<map>
+				<entry key="Biryani" value="350"></entry>
+				<entry key="Paneer" value="150"></entry>
+				<entry key="IceCream" value="100"></entry>
+			</map>
+		</property>
+	</bean>
+
+</beans>

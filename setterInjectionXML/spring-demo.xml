@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id="add1" class="setterDemo.Address">
+		<property name="city" value="Indore"></property>
+		<property name="country" value="India"></property>
+		<property name="pincode" value="451220"></property>
+	</bean>
+	<bean id="add2" class="setterDemo.Address">
+		<property name="city" value="Hyderabad"></property>
+		<property name="country" value="India"></property>
+		<property name="pincode" value="550025"></property>
+	</bean>
+	
+	<bean id="stu1" class="setterDemo.Student">
+		<property name="sid" value="101"></property>
+		<property name="name" value="Raja"></property>
+		
+		<property name="address" ref="add1"></property> <!-- ref tag for userdefined object -->
+	</bean>
+	<bean id="stu2" class="setterDemo.Student">
+		<property name="sid" value="102"></property>
+		<property name="name" value="Bharat"></property>
+		
+		<property name="address" ref="add1"></property>
+	</bean>
+	
+	<bean id="emp" class="setterDemo.Employee">
+		<property name="eid" value="10001"></property>
+		<property name="name" value="Tushar"></property>
+		
+		<property name="address" ref="add2"></property>
+	</bean>
+	<bean id="emp2" class="setterDemo.Employee">
+		<property name="eid" value="10002"></property>
+		<property name="name" value="Vivek"></property>
+		
+		<property name="address" ref="add2"></property>
+	</bean>
+	
+</beans>	

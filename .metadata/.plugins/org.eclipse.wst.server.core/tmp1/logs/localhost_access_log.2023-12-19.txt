@@ -1,0 +1,15 @@
+127.0.0.1 - - [19/Dec/2023:23:36:48 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:23:36:52 +0530] "GET /Spring-mvc-registration/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:23:36:52 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:23:36:57 +0530] "GET /Spring-mvc-registration/user/create HTTP/1.1" 500 3586
+127.0.0.1 - - [19/Dec/2023:23:40:27 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:23:40:29 +0530] "GET /Spring-mvc-registration/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:23:40:29 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:23:40:33 +0530] "GET /Spring-mvc-registration/user/create HTTP/1.1" 500 3586
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:23:43:34 +0530] "GET /Spring-mvc-registration/WEB-INF/classes/mvc/repository/RegisterRepository.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:23:43:34 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:23:43:46 +0530] "GET /Spring-mvc-registration/user/create HTTP/1.1" 500 3586
+127.0.0.1 - - [19/Dec/2023:23:59:16 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:23:59:17 +0530] "GET /Spring-mvc-registration/ HTTP/1.1" 500 36867
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:23:59:17 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:23:59:29 +0530] "GET /Spring-mvc-registration/user/create HTTP/1.1" 500 36860

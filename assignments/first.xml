@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+     <bean id="s1" class="first.usingxml.Student">
+		<property name="id" value="101"></property>
+		<property name="name" value="Raja Singh"></property>
+		<property name="marks">
+			<map>
+				<entry  key="Maths" value="88"></entry>
+				<entry  key="English" value="98"></entry>
+				<entry  key="C++" value="76"></entry>
+				<entry  key="Physics" value="35"></entry>
+				<entry  key="Java" value="66"></entry>				
+			</map>
+		</property>
+	</bean>
+	
+	<bean id="s2" class="first.usingxml.Student">
+		<constructor-arg name="id" value="102"></constructor-arg>
+		<constructor-arg name="name" value="Tushar"></constructor-arg>
+		<constructor-arg name="marks">
+			<map>
+				<entry key="maths" value="95"></entry>
+				<entry key="java" value="99"></entry>
+				<entry  key="English" value="98"></entry>
+				<entry  key="C++" value="76"></entry>
+				<entry  key="Physics" value="35"></entry>
+			</map>
+		</constructor-arg>
+	</bean>
+
+</beans>

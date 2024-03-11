@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id="address3" class="BankDetails.Address">
+		<constructor-arg index="0" value="Indore"></constructor-arg>
+		<constructor-arg index="1" value="451220"></constructor-arg>
+	</bean>
+	<bean id="address" class="BankDetails.Address">
+		<constructor-arg index="0" value="Hyderabad"></constructor-arg>
+		<constructor-arg index="1" value="451220"></constructor-arg>
+	</bean>
+	
+	<bean id="customer1" class="BankDetails.MyAccount" autowire="constructor">
+		<constructor-arg index="0" value="Raja Singh"></constructor-arg>
+	</bean>
+</beans>

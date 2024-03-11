@@ -1,0 +1,42 @@
+
+Dec 21, 2023 24:16:17.59 NEW SESSION
+Dec 21, 2023 24:16:17.63 [19044:10596:1221/001617.586:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+Dec 21, 2023 24:16:20.45 [19044:12440:1221/001620.453:ERROR:cert_verify_proc_builtin.cc(705)] CertVerifyProcBuiltin for loopfuse.net failed:
+Dec 21, 2023 24:16:20.45 ----- Certificate i=0 () -----
+Dec 21, 2023 24:16:20.45 ERROR: No matching issuer found
+Dec 21, 2023 24:16:20.45 
+Dec 21, 2023 24:16:20.45 
+Dec 21, 2023 24:35:17.13 [19044:10596:1221/003517.135:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+Dec 21, 2023 22:52:34.29 NEW SESSION
+Dec 21, 2023 22:52:34.32 [18552:3792:1221/225234.288:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Dec 21, 2023 23:01:51.53 [18552:16176:1221/230151.533:ERROR:device_event_log_impl.cc(192)] [23:01:51.532] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 21, 2023 23:05:18.22 [18552:3792:1221/230518.226:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Dec 21, 2023 23:10:51.01 [18552:16176:1221/231051.010:ERROR:device_event_log_impl.cc(192)] [23:10:51.009] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 21, 2023 23:15:06.32 [18552:16176:1221/231506.328:ERROR:device_event_log_impl.cc(192)] [23:15:06.327] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Dec 27, 2023 22:03:57.58 NEW SESSION
+Dec 27, 2023 22:03:57.63 [6140:16468:1227/220357.579:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Dec 27, 2023 22:20:05.30 [6140:16468:1227/222005.309:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Dec 27, 2023 23:05:08.43 [6140:16468:1227/230508.435:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+
+Mar 03, 2024 17:19:22.84 NEW SESSION
+Mar 03, 2024 17:19:22.85 [8800:22356:0303/171922.837:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 03, 2024 17:19:23.74 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 03, 2024 17:19:45.63 [8800:22356:0303/171945.635:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 03, 2024 17:20:28.97 [8800:22356:0303/172028.969:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 03, 2024 17:21:12.42 [8800:22356:0303/172112.425:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 03, 2024 17:21:38.47 [8800:22356:0303/172138.475:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 03, 2024 17:21:57.01 [8800:22356:0303/172157.013:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 03, 2024 17:22:06.49 [8800:22356:0303/172206.489:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 03, 2024 17:22:39.96 [8800:22356:0303/172239.967:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 03, 2024 17:23:03.12 [8800:22356:0303/172303.127:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 03, 2024 17:23:44.47 [8800:22356:0303/172344.475:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 03, 2024 17:23:53.94 [8800:22356:0303/172353.944:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 03, 2024 17:24:14.98 [8800:22356:0303/172414.987:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 03, 2024 17:24:17.00 [8800:22356:0303/172417.003:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 03, 2024 17:24:28.98 [8800:22356:0303/172428.987:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 03, 2024 17:24:35.67 [8800:22356:0303/172435.672:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 03, 2024 18:26:33.56 [8800:22356:0303/182633.564:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Mar 03, 2024 21:28:03.97 [8800:22356:0303/212803.970:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Mar 03, 2024 22:40:49.16 [8800:9880:0303/224049.140:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost

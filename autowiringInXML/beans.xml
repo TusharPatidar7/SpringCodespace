@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id="student1" class="mavenProjectTest.Student">
+		<constructor-arg>
+			<value>101</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>Raja</value>
+		</constructor-arg>
+		<constructor-arg>
+			<map>
+				<entry key="Maths" value="99"></entry>
+				<entry key="English" value="100"></entry>
+				<entry key="Physics" value="80"></entry>
+				<entry key="Computer Science" value="90"></entry>
+			</map>
+		</constructor-arg>
+	</bean>
+</beans>

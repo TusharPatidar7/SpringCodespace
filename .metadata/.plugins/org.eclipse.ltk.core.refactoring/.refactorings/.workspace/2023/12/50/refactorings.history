@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jpa&apos; to &apos;jpa-sorting-pagination&apos;" description="Rename resource &apos;jpa&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/jpa" name="jpa-sorting-pagination" stamp="1702313703720" updateReferences="true"/>
+</session>

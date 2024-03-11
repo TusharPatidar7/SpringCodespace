@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;PriscriptionDetails.java&apos; to &apos;spring-annotation/src/configureAnnotation&apos;&#x0D;&#x0A;- Original project: &apos;spring-annotation&apos;&#x0D;&#x0A;- Destination element: &apos;spring-annotation/src/configureAnnotation&apos;&#x0D;&#x0A;- Original element: &apos;PriscriptionDetails.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;configureAnnotation" element1="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;{PriscriptionDetails.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1699113622181" units="1" version="1.0"/>
+</session>

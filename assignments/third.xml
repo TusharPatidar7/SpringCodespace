@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- constructor injection Application-->
+	<bean id="address" class="third.Address">
+		<constructor-arg index="0" value="Indore"></constructor-arg>
+		<constructor-arg index="1" value="MP"></constructor-arg>
+		<constructor-arg index="2" value="451220"></constructor-arg>
+	</bean>
+	<bean id="org" class="third.Organization" autowire="constructor">
+		<constructor-arg index="0" value="Microsoft"></constructor-arg>
+	</bean>
+	<bean id="emp" class="third.Employee" autowire="constructor">
+		<constructor-arg index="0" value="Raja Sing Goud"></constructor-arg>
+		<constructor-arg index="1" value="1001"></constructor-arg>
+		<constructor-arg index="2" value="1500000.00"></constructor-arg>
+	</bean>
+	
+	<!-- setter injection application 
+	 <bean id="office" class="third.Address">
+		<property name="city" value="Indore"></property>
+		<property name="state" value="mp"></property>
+		<property name="pincode" value="451220"></property>
+	</bean>
+	<bean id="address" class="third.Address">
+		<property name="city" value="Piplgone"></property>
+		<property name="state" value="mp"></property>
+		<property name="pincode" value="451224"></property>
+	</bean>-->
+	<!-- autowire=no 
+	<bean id="org" class="third.Organization" autowire="no">
+		<property name="name" value="Deloite"></property>
+		<property name="office" ref="office"></property>
+	</bean>
+	<bean id="emp" class="third.Employee" autowire="no">
+		<property name="name" value="Raja Sing Goud"></property>
+		<property name="id" value="1001"></property>
+		<property name="salary" value="1500000.00"></property>
+		<property name="address" ref="address"></property>
+		<property name="organization" ref="org"></property>
+	</bean>-->
+	
+	<!-- autowire=byName
+	<bean id="organization" class="third.Organization" autowire="byName">
+		<property name="name" value="Deloite"></property>
+	</bean>
+	<bean id="emp" class="third.Employee" autowire="byName">
+		<property name="name" value="Raja Sing Goud"></property>
+		<property name="id" value="1001"></property>
+		<property name="salary" value="1500000.00"></property>
+	</bean>-->
+	
+	<!-- autowire=byType
+	<bean id="organization" class="third.Organization" >
+		<property name="name" value="Deloite"></property>
+		<property name="office" ref="office"></property>
+	</bean>
+	<bean id="emp" class="third.Employee" autowire="byType">
+		<property name="name" value="Raja Sing Goud"></property>
+		<property name="id" value="1001"></property>
+		<property name="salary" value="1500000.00"></property>
+		<property name="address" ref="address"></property>
+	</bean>-->
+</beans>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id="address" class="springScopeProject.Address" scope="prototype">
+		<property name="city" value="Indore"></property>
+		<property name="pincode" value="451220"></property>
+	</bean>
+	<bean id="address2" class="springScopeProject.Address" >
+		<property name="city" value="Indore"></property>
+		<property name="pincode" value="451220"></property>
+	</bean>
+	<bean id="emp1" class="springScopeProject.Employee" scope="prototype">
+		<property name="name" value="Raja"></property>
+		<property name="id" value="101"></property>
+		<property name="Address" ref="address"></property>
+	</bean>
+	<bean id="emp2" class="springScopeProject.Employee" >
+		<property name="name" value="Raja"></property>
+		<property name="id" value="101"></property>
+		<property name="Address" ref="address2"></property>
+	</bean>
+</beans>

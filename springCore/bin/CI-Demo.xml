@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id="emp1" class="constructorInjection.Employee">
+		<constructor-arg value="1"></constructor-arg>
+		<constructor-arg value="Vivek"></constructor-arg>
+		<constructor-arg value="500000"></constructor-arg>
+	</bean>
+	<bean id="emp2" class="constructorInjection.Employee">
+		<property name="empid" value="2"></property>
+		<property name="name" value="Raja"></property>
+		<property name="salary" value="2000000"></property>
+	</bean>
+	
+	<bean id="order1" class="constructorInjection.Order">
+		<constructor-arg value="1001"></constructor-arg>
+		<constructor-arg value="Pizza"></constructor-arg>
+		<constructor-arg value="250"></constructor-arg>
+	</bean>
+	<bean id="order2" class="constructorInjection.Order">
+		
+	</bean>
+	<bean id="order3" class="constructorInjection.Order">
+		<constructor-arg>
+			<list>
+				<value>Pizza</value>
+				<value>Popcorn</value>
+				<value>ThumbsUp</value>
+			</list>
+		</constructor-arg>
+		<constructor-arg>
+			<set>
+				<value>152</value>
+				<value>50</value>
+				<value>100</value>
+			</set>
+		</constructor-arg>
+		<constructor-arg>
+			<map>
+				<entry key="Mahesh" value="1"></entry>
+				<entry key="Kishan" value="2"></entry>
+				<entry key="Raja" value="3"></entry>
+			</map>
+		</constructor-arg>
+	</bean>
+</beans>

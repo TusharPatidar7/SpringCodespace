@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Dec 11 21:56:31 IST 2023
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Tushar\ Patidar\\.m2\\repository\\org\\springframework\\spring-web\\5.3.29\\spring-web-5.3.29.jar=WEB-INF/lib/spring-web-5.3.29.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Tushar\ Patidar\\eclipse-workspace\\springClass\\spring-mvc\\src\\main\\webapp\\springmvc.war=springmvc.war
